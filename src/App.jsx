@@ -1,19 +1,17 @@
 import "./App.css";
+import MyButton from "./components/MyButton";
+import { useState } from "react";
 
 
-const MyButton = () => {
-  return (
-    <button>My Button</button>
-  )
-}
+
 function App() {
 
-  const user = {
-    name: 'Hedy Lamarr',
-    surname: 'true',
-    imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
-    imageSize: 90,
-  };
+  const [count, setCount] = useState(0);
+
+  const handleClick = () => {
+      setCount(count + 1)
+    }
+
 
   const products = [
     { title: 'Cabbage', isFruit: 1, id: 1 },
@@ -36,8 +34,11 @@ function App() {
 
   return (
     <>
-      <ul>{listItems}
-      </ul>
+      <ul>{listItems}</ul>
+
+      <MyButton count={count} onClick={handleClick}/>
+      <MyButton count={count} onClick={handleClick}/>
+
     </>
   );
 }
