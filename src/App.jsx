@@ -1,46 +1,24 @@
+import { useState, useEffect } from "react";
 import "./App.css";
-import MyButton from "./components/MyButton";
-import { useState } from "react";
-
-
+import ourMockData from "./mock/mock-data.json";
 
 function App() {
-
-  const [count, setCount] = useState(0);
-
-  const handleClick = () => {
-      setCount(count + 1)
-    }
-
-
-  const products = [
-    { title: 'Cabbage', isFruit: 1, id: 1 },
-    { title: 'Garlic', isFruit: false, id: 2 },
-    { title: 'Apple', isFruit: 0, id: 3 },
-  ];
-
-
-
-
-  const listItems = products.map(product =>
-    <li key={product.id}
-        style={{
-        color: product.isFruit ? 'magenta' : 'darkgreen'
-        }}>
-      {product.title}
-    </li>
-  );
-
-
   return (
     <>
-      <ul>{listItems}</ul>
-
-      <MyButton count={count} onClick={handleClick}/>
-      <MyButton count={count} onClick={handleClick}/>
-
+      <div className="profile-summary">
+        <div className="profile-picture">
+          <img
+            src={ourMockData.data.imageData.imgSrc}
+            alt={ourMockData.data.imageData.alt}
+          />
+        </div>
+        <div className="profile-description">
+          <h4>User Name</h4>
+          <p>Hi my name is User Name and I love sushi</p>
+        </div>
+      </div>
     </>
   );
 }
 
-export default App
+export default App;

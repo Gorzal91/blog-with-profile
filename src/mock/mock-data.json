@@ -1,0 +1,20 @@
+{
+  "data": {
+    "imageData": {
+        "imgSrc": "URL",
+        "alt": "alt image text"
+    },
+    "userData": {
+      "name": "actual name",
+      "id": 123123,
+      "bio": "text string"
+    },
+    "posts": [{ "title": "title", "article": "article", "userId": 123123 },
+    { "title": "title", "article": "article", "userId": 123123 },
+    { "title": "title", "article": "article", "userId": 123123 }],
+    "header": "App Name",
+    "footer": "copyright company name"
+  },
+  "code": 200,
+  "status": "success"
+}
