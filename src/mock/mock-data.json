@@ -5,9 +5,9 @@
         "alt": "alt image text"
     },
     "userData": {
-      "name": "actual name",
+      "name": "John Smith",
       "id": 123123,
-      "bio": "text string"
+      "bio": "Hello, my name's John and I love John Deere tractors"
     },
     "posts": [{ "title": "title", "article": "article", "userId": 123123 },
     { "title": "title", "article": "article", "userId": 123123 },
