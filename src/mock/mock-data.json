@@ -5,15 +5,15 @@
         "alt": "alt image text"
     },
     "userData": {
-      "name": "John Smith",
+      "name": "Albert Einstein",
       "id": 123123,
-      "bio": "Hello, my name's John and I love John Deere tractors"
+      "bio": "Hello, my name's Albert and I developed Theory of relativity "
     },
-    "posts": [{ "title": "title", "article": "article", "userId": 123123 },
-    { "title": "title", "article": "article", "userId": 123123 },
-    { "title": "title", "article": "article", "userId": 123123 }],
-    "header": "App Name",
-    "footer": "copyright company name"
+    "posts": [{ "title": "Title1", "article": "Text Content 1", "userId": 123123 },
+    { "title": "Title2", "article": "Text Content 2", "userId": 123123 },
+    { "title": "Title3", "article": "Text Content 3", "userId": 123123 }],
+    "header": "Text Input",
+    "footer": "2025 (C) company"
   },
   "code": 200,
   "status": "success"
