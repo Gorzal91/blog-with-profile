@@ -1,14 +1,10 @@
-const Footer = ({ data }) => {  
-   return (
-   <>
-<div className="footer-section">
-   <h6>
-        <p>{data.footer}</p>  
-      </h6>
-    </div>  
-    </>
-); 
-    
+const Footer = ({ footerData }) => {
+    const currentYear = new Date().getFullYear();
+    return (
+        <footer>
+            <p> {currentYear} {footerData}</p>
+        </footer>
+    );
 }
 
 export default Footer;

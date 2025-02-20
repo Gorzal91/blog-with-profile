@@ -15,7 +15,7 @@
     { "title": "Title4", "article": "Text Content 4", "userId": 123123, "status": "published" }],
     "header": "First React App",
     "text": "Text Input",
-    "footer": "2025 (C) company"
+    "footer": "© by React ComIT course"
   },
   "code": 200,
   "status": "success"
