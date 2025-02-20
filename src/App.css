@@ -57,17 +57,24 @@
 
 /*post section */
 
-.posts-section {
-  border: 3px solid green;
+.posts-section  {
+  border: 2px solid green;
   color: green;
   font-weight: bold;
-  text-align: left;
- 
+  text-align: left; 
 }
+
+.posts-section p {
+  color: black;
+  font-weight: normal;
+  text-align: left; 
+}
+
+
 
 .posts-section ul {
   list-style-type: disc; 
-  padding-left: 20px; 
+  padding-left: 10px; 
   list-style-position: inside; /* Ustawia punktory na zewnątrz elementu listy */
 }
 
@@ -78,7 +85,8 @@
 }
 
 .posts-section li h4 {
-  display: inline; /* Ustawia tytuł obok punktora */
+  display: inline
+     /* Ustawia tytuł obok punktora */
 }
 
 .posts-section li p {
@@ -89,6 +97,9 @@
 .post {
   margin-bottom: 20px;
 }
+
+
+/*Input Text section */
 
 .text-section {
   border: 3px solid red;
