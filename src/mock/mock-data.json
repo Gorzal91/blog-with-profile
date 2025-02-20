@@ -9,9 +9,10 @@
       "id": 123123,
       "bio": "Hello, my name's Albert and I developed Theory of relativity "
     },
-    "posts": [{ "title": "Title1", "article": "Text Content 1", "userId": 123123 },
-    { "title": "Title2", "article": "Text Content 2", "userId": 123123 },
-    { "title": "Title3", "article": "Text Content 3", "userId": 123123 }],
+    "posts": [{ "title": "Title1", "article": "Text Content 1", "userId": 123123, "status": "published" },
+    { "title": "Title2", "article": "Text Content 2", "userId": 123123, "status": "published" },
+    { "title": "Title3", "article": "Text Content 3", "userId": 123123, "status": "in progress" },
+    { "title": "Title4", "article": "Text Content 4", "userId": 123123, "status": "published" }],
     "header": "App Name",
     "text": "Text Input",
     "footer": "2025 (C) company"
