@@ -12,7 +12,8 @@
     "posts": [{ "title": "Title1", "article": "Text Content 1", "userId": 123123 },
     { "title": "Title2", "article": "Text Content 2", "userId": 123123 },
     { "title": "Title3", "article": "Text Content 3", "userId": 123123 }],
-    "header": "Text Input",
+    "header": "App Name",
+    "text": "Text Input",
     "footer": "2025 (C) company"
   },
   "code": 200,

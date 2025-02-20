@@ -4,6 +4,9 @@ const ProfileSummary = ({ data }) => {
     console.log('data from ProfileSummary:', data)
   return (
     <div className="profile-summary">
+       <div className="header-section">
+         <p>{data.header}</p>
+      </div>
       <div className="profile-header">
       { data?.imageData ?
         <div className="profile-picture">
@@ -32,9 +35,9 @@ const ProfileSummary = ({ data }) => {
         </h3>
       </div>
       
-      <div className="header-section">
+      <div className="text-section">
         <h3>
-        <p>{data.header}</p>
+        <p>{data.text}</p>
         </h3>
       </div>
       
